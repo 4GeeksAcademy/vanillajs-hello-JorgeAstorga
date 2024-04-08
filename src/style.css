@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.excusadiv {
+  text-align: center;
+  font-size: xx-large;
+  background-color: lightgreen;
+  margin: auto;
+  border-radius: 25px;
+}
+h1 {
+  text-align: center;
+}
