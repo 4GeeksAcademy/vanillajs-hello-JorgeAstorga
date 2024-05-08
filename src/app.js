@@ -5,16 +5,38 @@ import "./style.css";
 
 window.onload = function() {
   //variables let para definir cada parte
-  let who = ["The dog", "My grandma", "The mailman", "My bird", "An Alien"];
-  let action = ["ate", "peed", "crushed", "broke", "vaporized"];
-  let what = ["my homework", "my phone", "the car", "my wife", "my beloved PC"];
+  let who = [
+    "The dog",
+    "My grandma",
+    "The mailman",
+    "My bird",
+    "An Alien",
+    "Donald Trump"
+  ];
+  let action = [
+    "decided to sell",
+    "peed",
+    "crushed",
+    "broke",
+    "vaporized",
+    "stole"
+  ];
+  let what = [
+    "my homework",
+    "my phone",
+    "the car",
+    "my wife",
+    "my beloved PC",
+    "my free will"
+  ];
   let when = [
     "before the class.",
     "when I was sleeping.",
     "while I was exercising.",
     "during my lunch.",
     "while I was praying.",
-    "for some secret reason only the government knows. Ssshhh..."
+    "for some secret reason only the government knows. Ssshhh...",
+    ", it was a bit crazy!"
   ];
 
   //funciones random que seleccionan de forma aleatoria un elemento de cada array "let"
